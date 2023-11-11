@@ -25,7 +25,7 @@
             ],
             "background" : true,
             "text": true,
-            "link": false,
+            "link": true,
             "custom": true,
             "duotone": [
                 { "slug": "u-pink-sunset", "colors": ["#05106A","#D3485D"] , "name": "Udemy Pink Sunset"}
