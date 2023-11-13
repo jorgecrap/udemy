@@ -1,341 +1,95 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Udemy Static Template</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Rubik:wght@300;400;500;700&display=swap" rel="stylesheet"> 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
-  </head>
-  <body>
-    <!-- Header -->
-    <header class="shadow">
-      <!-- Topbar -->
-      <div class="py-3 text-sm bg-gray-700">
-        <div class="container !mx-auto flex items-center justify-between">
-          <!-- Secondary Links -->
-          <ul class="secondary-menu">
-            <li>
-              <a href="#">Example Link</a>
-            </li>
-            <li>
-              <a href="#">Example Link</a>
-            </li>
-            <li>
-              <a href="#">Example Link</a>
-            </li>
-            <li>
-              <a href="#">Example Link</a>
-            </li>
-          </ul>
-          <!-- Regular Text -->
-          <div class="text-gray-200 !mt-0">
-            Some Regular Text
-          </div>
-        </div>
-      </div>
-      <!-- Header midsection -->
-      <div class="container !mx-auto flex !flex-nowrap relative items-center py-5 justify-between w-full">
-        <!-- Text Logo -->
-        <a href="#" class="text-red-500 font-bold text-3xl">
-          Udemy
-        </a>
-        <!-- Image Logo -->
-        <!-- <a href="#">
-          <img src="img/logoipsum.png" width="142">
-        </a> -->
-        <!-- Search Form -->
-        <form class="header-search-form">
-          <input type="text" placeholder="Search">
-        </form>
-        <!-- Header Tools -->
-        <div class="wp-block-udemy-plus-header-tools">
-          <!-- Signin Modal Link -->
-          <a class="signin-link open-modal" href="#signin-modal">
-            <div class="signin-icon">
-              <i class="bi bi-person-circle"></i>
-            </div>
-            <div class="signin-text">
-              <small>Hello, Sign in</small>
-              My Account
-            </div>
-          </a>
-        </div>
-      </div>
-      <!-- Primary Menu -->
-      <div class="container !mx-auto flex-nowrap justify-start pb-4 primary-menu">
-        <ul>
-          <li>
-            <a href="#">Example Link</a>
-          </li>
-          <li>
-            <a href="#">Example Link</a>
-          </li>
-          <li>
-            <a href="#">Example Link</a>
-          </li>
-          <li>
-            <a href="#">Example Link</a>
-          </li>
-          <li>
-            <a href="#">Example Link</a>
-          </li>
-        </ul>
-      </div>
-    </header>
+<!-- wp:template-part {"slug":"header","theme":"udemy","tagName":"header","className":"shadow"} /-->
 
-    <!-- Main Content -->
-    <main class="container !mx-auto pb-5 mb-4 mt-12">
-      <div class="grid grid-cols-3 gap-16">
-        <div class="col-span-2">
-          <!-- Post Meta -->
-          <div class="flex flex-wrap items-center mb-4">
-            <!-- Author -->
-            <a class="post-author !mb-0 !pb-0 mr-4" href="#">
-              <img src="img/author.jpg" alt="Emma Gallaher">
-              <span>John Doe</span>
-            </a>
-            <!-- Date -->
-            <span class="text-gray-500 !mt-0">Aug 15</span>
-            <!-- Post Comment Count -->
-            <a class="bi post-comment-count !mt-0 !ml-auto" href="#comments">
-              8
-            </a>
-          </div>
-          <!-- Title -->
-          <h2 class="text-4xl mb-4 font-medium text-gray-700">
-            <a href="#">
-              We Launched Regular Drone Delivery in California. 
-              Watch Demo Video
-            </a>
-          </h2>
-          <!-- Post Image -->
-          <a class="block rounded-lg overflow-hidden mb-4" href="#">
-            <img src="img/blog-post-01.jpg" class="w-full">
-          </a>
-          <!-- Post Content -->
-          <p>
-            Lorem ipsum dolor sit amet, consectetur 
-            adipiscing elit, sed do eiusmod tempor 
-            incididunt ut labore et dolore magna aliqua. 
-            Ut enim ad minim veniam, quis nostrud exercitation 
-            ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-            Duis aute irure dolor in reprehenderit in voluptate velit 
-            esse cillum dolore eu fugiat nulla pariatur. Excepteur 
-            sint occaecat cupidatat non proident, sunt in culpa qui 
-            officia deserunt mollit anim id est laborum. Ut enim ad 
-            minima veniam, quis nostrum exercitationem occaecat 
-            cupidatat non proident.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur 
-            adipiscing elit, sed do eiusmod tempor 
-            incididunt ut labore et dolore magna aliqua. 
-            Ut enim ad minim veniam, quis nostrud exercitation 
-            ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-            Duis aute irure dolor in reprehenderit in voluptate velit 
-            esse cillum dolore eu fugiat nulla pariatur. Excepteur 
-            sint occaecat cupidatat non proident, sunt in culpa qui 
-            officia deserunt mollit anim id est laborum. Ut enim ad 
-            minima veniam, quis nostrum exercitationem occaecat 
-            cupidatat non proident.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur 
-            adipiscing elit, sed do eiusmod tempor 
-            incididunt ut labore et dolore magna aliqua. 
-            Ut enim ad minim veniam, quis nostrud exercitation 
-            ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-            Duis aute irure dolor in reprehenderit in voluptate velit 
-            esse cillum dolore eu fugiat nulla pariatur. Excepteur 
-            sint occaecat cupidatat non proident, sunt in culpa qui 
-            officia deserunt mollit anim id est laborum. Ut enim ad 
-            minima veniam, quis nostrum exercitationem occaecat 
-            cupidatat non proident.
-          </p>
-          <!-- Post Tags -->
-          <div class="post-content-tags mt-8">
-            <a href="#">Travel</a>
-            <a href="#">Personal finance</a>
-          </div>
-          <!-- Pagination-->
-          <div class="flex border border-gray-200 rounded-lg my-8">
-            <a class="basis-0 grow max-w-full py-5 px-3 transition-all hover:bg-gray-100 text-center border-r border-r-gray-200" href="#">
-              Prev Page
-            </a>
-            <a class="basis-0 grow max-w-full py-5 px-3 transition-all hover:bg-gray-100 text-center !mt-0" href="#">
-              Next Page
-            </a>
-          </div>
+<!-- wp:columns {"style":{"spacing":{"margin":{"top":"4rem","bottom":"4rem"}}},"className":"container !mx-auto"} -->
+<div class="wp-block-columns container !mx-auto" style="margin-top:4rem;margin-bottom:4rem">
+  <!-- wp:column {"width":"66.66%"} -->
+  <div class="wp-block-column" style="flex-basis:66.66%">
+    <!-- wp:group {"style":{"spacing":{"blockGap":"1rem"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
+    <div class="wp-block-group">
+      <!-- wp:post-author {"avatarSize":24,"style":{"elements":{"link":{"color":{"text":"var:preset|color|u-gray-700"}}},"spacing":{"margin":{"bottom":"0rem"},"padding":{"top":"0","bottom":"0","left":"0","right":"0"}}},"textColor":"u-gray-700","className":"post-author"} /-->
 
-          <h2 class="text-2xl font-medium">
-            Comments
-          </h2>
-          <!-- comment-->
-          <div class="flex items-start py-6 border-b border-b-gray-200">
-            <img class="rounded-full w-16" src="img/comment-author.jpg">
-            <div class="pl-4">
-              <h6 class="mb-2 font-medium">Laura Willson</h6>
-              <p class="mb-2">
-                Lorem ipsum dolor sit amet, consectetur adipiscing 
-                elit, sed do eiusmod tempor incididunt ut labore et 
-                dolore magna aliqua. Ut enim ad minim veniam, quis 
-                nostrud exercitation ullamco laboris nisi ut aliquip 
-                ex ea commodo consequat cupidatat non proident, sunt 
-                in culpa qui.
-              </p>
-            </div>
-          </div>
-          <!-- comment-->
-          <div class="flex items-start py-6 border-b border-b-gray-200">
-            <img class="rounded-full w-16" src="img/comment-author.jpg">
-            <div class="pl-4">
-              <h6 class="mb-2 font-medium">Laura Willson</h6>
-              <p class="mb-2">
-                Lorem ipsum dolor sit amet, consectetur adipiscing 
-                elit, sed do eiusmod tempor incididunt ut labore et 
-                dolore magna aliqua. Ut enim ad minim veniam, quis 
-                nostrud exercitation ullamco laboris nisi ut aliquip 
-                ex ea commodo consequat cupidatat non proident, sunt 
-                in culpa qui.
-              </p>
-            </div>
-          </div>
-          <!-- Post comment form-->
-          <div class="comments-section">
-            <form>
-              <div class="mb-3">
-                <textarea rows="4" placeholder="Write comment..."></textarea>
-              </div>
-              <button type="submit">Post comment</button>
-            </form>
-          </div>
-        </div>
-        <div>
-          <!-- Popular tags-->
-          <div class="sidebar-tags">
-            <h6 class="text-xl font-medium mb-5">Blog Tags</h6>
-            <a href="#">fashion</a>
-            <a href="#">gadgets</a>
-            <a href="#">online shopping</a>
-            <a href="#">top brands</a>
-            <a href="#">travel</a>
-            <a href="#">cartzilla news</a>
-            <a href="#">personal finance</a>
-            <a href="#">tips &amp; tricks</a>
-          </div>
-          <!-- Trending posts-->
-          <div class="mb-8">
-            <h6 class="text-xl font-medium mb-5">Trending Posts</h6>
-            <div class="flex mb-4 items-center">
-              <!-- Post Image -->
-              <a class="shrink-0" href="#">
-                <img class="rounded-lg w-16" src="img/trending-01.jpg">
-              </a>
-              <div class="text-sm ml-4">
-                <!-- Post Title -->
-                <a class="block font-medium" href="blog-single.html">
-                  Retro Cameras are Trending. Why so Popular?
-                </a>
-                <!-- Post Author -->
-                <span class="text-gray-500">
-                  by <a href="#">Andy Williams</a>
-                </span>
-              </div>
-            </div>
-            <div class="flex mb-4 items-center">
-              <a class="shrink-0" href="#">
-                <img class="rounded-lg w-16" src="img/trending-02.jpg">
-              </a>
-              <div class="text-sm ml-4">
-                <a class="block font-medium" href="blog-single.html">
-                  Retro Cameras are Trending. Why so Popular?
-                </a>
-                <span class="text-gray-500">
-                  by <a href="#">Andy Williams</a>
-                </span>
-              </div>
-            </div>
-            <div class="flex mb-4 items-center">
-              <a class="shrink-0" href="#">
-                <img class="rounded-lg w-16" src="img/trending-03.jpg">
-              </a>
-              <div class="text-sm ml-4">
-                <a class="block font-medium" href="blog-single.html">
-                  Retro Cameras are Trending. Why so Popular?
-                </a>
-                <span class="text-gray-500">
-                  by <a href="#">Andy Williams</a>
-                </span>
-              </div>
-            </div>
-          </div>
-          <!-- Categories-->
-          <div class="sidebar-categories">
-            <h6 class="text-xl font-medium mb-5">Blog Categories</h6>
-            <ul>
-              <li><a href="#">Example Category</a></li>
-              <li><a href="#">Example Category</a></li>
-              <li><a href="#">Example Category</a></li>
-              <li><a href="#">Example Category</a></li>
-              <li><a href="#">Example Category</a></li>
-            </ul>
-          </div>
-        </div>
+      <!-- wp:post-date {"isLink":true,"style":{"elements":{"link":{"color":{"text":"var:preset|color|u-gray-500"}}}},"textColor":"u-gray-500","className":"!mt-0"} /-->
+
+      <!-- wp:comments {"style":{"layout":{"selfStretch":"fill","flexSize":null}}} -->
+      <div class="wp-block-comments">
+        <!-- wp:comments-title {"textAlign":"right","showPostTitle":false,"className":"bi post-comment-count !ml-auto"} /-->
       </div>
-    </main>
+      <!-- /wp:comments -->
+    </div>
+    <!-- /wp:group -->
 
-    <!-- Footer -->
-    <footer class="bg-gray-700 p-16">
-      <div class="container !mx-auto">
-        <div class="grid grid-cols-3 gap-4">
-          <div>
-            <h6 class="text-white font-medium text-lg mb-2">Footer Column 1</h6>
-            <p class="text-white">
-              This is an example of a footer column.
-            </p>
+    <!-- wp:post-title {"isLink":true,"style":{"elements":{"link":{"color":{"text":"var:preset|color|u-gray-700"}}},"typography":{"fontStyle":"normal","fontWeight":"700","lineHeight":"1.75"},"spacing":{"margin":{"bottom":"0.5rem","top":"0px"}}},"textColor":"u-gray-700","className":"!mt-0","fontSize":"large"} /-->
+
+    <!-- wp:post-featured-image {"isLink":true,"width":"100%","style":{"spacing":{"margin":{"bottom":"1rem"}}},"className":"rounded-lg overflow-hidden !mt-0"} /-->
+
+    <!-- wp:post-content /-->
+
+    <!-- wp:post-terms {"term":"post_tag","style":{"elements":{"link":{"color":{"text":"var:preset|color|u-gray-500"}}}},"textColor":"u-gray-500","className":"post-content-tags"} /-->
+
+    <!-- wp:group {"style":{"spacing":{"margin":{"top":"2rem","bottom":"2rem"},"blockGap":"0px"},"dimensions":{"minHeight":""},"border":{"width":"1px","color":"rgb(229 231 235)","radius":"0.5rem"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
+    <div class="wp-block-group has-border-color"
+      style="border-color:rgb(229 231 235);border-width:1px;border-radius:0.5rem;margin-top:2rem;margin-bottom:2rem">
+      <!-- wp:post-navigation-link {"type":"previous","className":"basis-0 grow max-w-full py-5 px-3 transition-all hover:bg-gray-100 text-center border-r border-r-gray-200"} /-->
+
+      <!-- wp:post-navigation-link {"className":"basis-0 grow max-w-full py-5 px-3 transition-all hover:bg-gray-100 text-center !mt-0"} /-->
+    </div>
+    <!-- /wp:group -->
+
+    <!-- wp:heading {"align":"wide","style":{"typography":{"lineHeight":"1.1","fontSize":"1.5rem","fontStyle":"normal","fontWeight":"500"}}} -->
+    <h2 class="wp-block-heading alignwide"
+      id="we-re-a-studio-in-berlin-with-an-international-practice-in-architecture-urban-planning-and-interior-design-we-believe-in-sharing-knowledge-and-promoting-dialogue-to-increase-the-creative-potential-of-collaboration"
+      style="font-size:1.5rem;font-style:normal;font-weight:500;line-height:1.1">Comments</h2>
+    <!-- /wp:heading -->
+
+    <!-- wp:comments {"className":"comments-section"} -->
+    <div class="wp-block-comments comments-section"><!-- wp:comments-title /-->
+
+      <!-- wp:comment-template -->
+      <!-- wp:columns -->
+      <div class="wp-block-columns"><!-- wp:column {"width":"40px"} -->
+        <div class="wp-block-column" style="flex-basis:40px">
+          <!-- wp:avatar {"size":40,"style":{"border":{"radius":"20px"}}} /--></div>
+        <!-- /wp:column -->
+
+        <!-- wp:column -->
+        <div class="wp-block-column"><!-- wp:comment-author-name {"fontSize":"small"} /-->
+
+          <!-- wp:group {"style":{"spacing":{"margin":{"top":"0px","bottom":"0px"}}},"layout":{"type":"flex"}} -->
+          <div class="wp-block-group" style="margin-top:0px;margin-bottom:0px">
+            <!-- wp:comment-date {"fontSize":"small"} /-->
+
+            <!-- wp:comment-edit-link {"fontSize":"small"} /-->
           </div>
-          <div>
-            <h6 class="text-white font-medium text-lg mb-2">Footer Column 2</h6>
-            <p class="text-white">
-              This is an example of a footer column.
-            </p>
-          </div>
-          <div>
-            <h6 class="text-white font-medium text-lg mb-2">Footer Column 3</h6>
-            <p class="text-white">
-              This is an example of a footer column.
-            </p>
-          </div>
+          <!-- /wp:group -->
+
+          <!-- wp:comment-content /-->
+
+          <!-- wp:comment-reply-link {"fontSize":"small"} /-->
         </div>
-        <hr class="text-white my-12">
-        <div class="grid grid-cols-2 gap-4">
-          <div>
-            <p class="text-white">
-              © All rights reserved.
-            </p>
-          </div>
-          <div class="text-right">
-            <a class="text-white ml-2" href="#">
-              <i class="bi bi-twitter"></i>
-            </a>
-            <a class="text-white ml-2" href="#">
-              <i class="bi bi-facebook"></i>
-            </a>
-            <a class="text-white ml-2" href="#">
-              <i class="bi bi-instagram"></i>
-            </a>
-            <a class="text-white ml-2" href="#">
-              <i class="bi bi-youtube"></i>
-            </a>
-          </div>
-        </div>
+        <!-- /wp:column -->
       </div>
-    </footer>
+      <!-- /wp:columns -->
+      <!-- /wp:comment-template -->
 
-    <script type="module" src="/main.js"></script>
-  </body>
-</html>
+      <!-- wp:comments-pagination -->
+      <!-- wp:comments-pagination-previous /-->
+
+      <!-- wp:comments-pagination-numbers /-->
+
+      <!-- wp:comments-pagination-next /-->
+      <!-- /wp:comments-pagination -->
+
+      <!-- wp:post-comments-form /-->
+    </div>
+    <!-- /wp:comments -->
+  </div>
+  <!-- /wp:column -->
+
+  <!-- wp:column {"width":"33.33%"} -->
+  <div class="wp-block-column" style="flex-basis:33.33%"><!-- wp:template-part {"slug":"sidebar","theme":"udemy"} /-->
+  </div>
+  <!-- /wp:column -->
+</div>
+<!-- /wp:columns -->
+
+<!-- wp:template-part {"slug":"footer","theme":"udemy","tagName":"footer","className":"bg-gray-700 p-16"} /-->
